@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layoutDirection="rtl"
+    android:background="#1a1a1a">
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:lineSpacingExtra="10dp"
+        android:padding="18dp"
+        android:text="\nMs Ravand : 14\n\nZahra Ghavam saeedi : 13\n\nAlireza Bahari : 18\n\nBahar Razavi : 19\n\nMahdiyar Merrixi : 13\n\nMohammadreza Asiyaban : 10\n"
+        android:textColor="#bea46f"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="@string/sort"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/sort"
+        android:textColor="#1a1a1a"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gpa"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/class_score"
+        android:textColor="#1a1a1a"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:textColor="#bea46f"
+        android:id="@+id/sharait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="@string/gpa_class"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="330dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="470sp"
+        android:background="#1a1a1a"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="310dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Student</string>
+    <string name="names">\nMs Ravand\n\nZahra Ghavam saeedi\n\nAlireza Bahari\n\nBahar Razavi\n\nMahdiyar Merrixi\n\nMohammadreza Asiyaban</string>
+    <string name="score">Score</string>
+    <string name="score1">score</string>
+    <string name="clice">After entering grades, click!</string>
+    <string name="sort">sort</string>
+    <string name="class_score">Class score</string>
+    <string name="after_entering_the_grades_click_on_the_score_of_the_class">After entering the grades,click on the score of the class!</string>
+    <string name="gpa_class">GPA Class</string>
+    <string name="academic_performance">Academic Performance</string>
+</resources>
